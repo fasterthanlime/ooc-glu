@@ -1,5 +1,11 @@
 use glu
 
+version (apple) {
+    include OpenGL/glu
+} else {
+    include GL/glu
+}
+
 Quadric: cover from GLUquadric*
 	
 gluPerspective: extern func(Double, Double, Double, Double)

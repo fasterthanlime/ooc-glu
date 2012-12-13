@@ -1,5 +1,4 @@
 Name: GLU
 Description: OpenGL utility toolkit
 Pkgs: glu
-Includes: GL/glu.h
 SourcePath: source
