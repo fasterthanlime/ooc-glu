@@ -9,7 +9,7 @@ import glu
 
 import math
 
-main: func {
+main: func (argc: Int, argv: CString*) {
 
     (width, height) := (640, 480)
     SDL init(SDL_INIT_EVERYTHING)
